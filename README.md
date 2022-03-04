@@ -1,0 +1,2 @@
+# how-to-add-a-blazor-chip-component
+A quick start Blazor project that shows how to create and configure the Syncfusion Blazor Chips component in a Blazor WebAssembly app. This project also includes a code snippet to add different types of Blazor Chips, add icons chip and how to customize a chip using styles, letters, and avatars and finally, how to bind a click event to the Blazor Chips component.
