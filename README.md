@@ -35,8 +35,6 @@ Input chips allow Blazor chips to be added or removed. A chips can be created fr
 
 [Documentation](https://blazor.syncfusion.com/documentation/chip/getting-started?utm_source=github&utm_medium=listing&utm_campaign=blazor-chips-github-samples)
 
-[View Demos](https://blazor.syncfusion.com/demos/chips/default-functionalities?theme=bootstrap5?utm_source=github&utm_medium=listing&utm_campaign=blazor-chips-github-samples)
-
 [Community Forums](https://www.syncfusion.com/forums/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-chips-github-samples)
 
 [Suggest a feature or report a bug](https://www.syncfusion.com/feedback/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-chips-github-samples)
