@@ -1,0 +1,33 @@
+﻿@page "/"
+
+<SfChip Selection="SelectionType.Multiple" EnableDelete="true">
+    <ChipEvents OnClick="@DisplayChipText"></ChipEvents>
+    <ChipItems>
+        <ChipItem Text="Anne" LeadingIconUrl="images/anne.png"></ChipItem>
+        <ChipItem Text="Janet" LeadingIconUrl="images/janet.png"></ChipItem>
+        <ChipItem Text="Laura" CssClass="e-outline"></ChipItem>
+        <ChipItem Text="Margaret" LeadingText="M"></ChipItem>
+    </ChipItems>
+</SfChip>
+
+<div class="text">@ChipText</div>
+
+@code {
+
+    public string ChipText = "";
+
+    public void DisplayChipText(ChipEventArgs args)
+    {
+
+        ChipText = "Sent a text";
+        this.StateHasChanged();
+
+    }
+}
+
+<style>
+    .text {
+        color: blue;
+        font-weight: bold;
+    }
+</style>
